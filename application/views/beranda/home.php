@@ -58,8 +58,8 @@
     <div class="container-fluid">
       <div class="row mt-3">
         <?php foreach ($sering as $srg) : ?>
-          <div class="card ml-3" style="width: 16rem;">
-            <img width="100px" height="180px" src="<?= 'assets/img/' . $srg->gambar ?>" class="card-img-top" alt="...">
+          <div class="card ml-3 mb-3" style="width: 15.2rem;">
+            <img width="20px" height="160px" src="<?= 'assets/img/' . $srg->gambar ?>" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title"><?php echo $srg->judul ?></h5>
 
